@@ -1,5 +1,5 @@
 /*
- * file:0-puts_recursion.c
+ * File: 0-puts_recursion.c
  * Auth: sam
  */
 
@@ -11,10 +11,10 @@
  */
 void _puts_recursion(char *s)
 {
-	if (*s)
+	if (*S)
 	{
 		_putchar(*s);
-		_puts_recursion(s + 1);
+		_puts_recursion(S + 1);
 	}
 	
 	else
